@@ -1,8 +1,9 @@
 import React from "react";
+import Searchbar from "../components/Searchbar"
 
 function Search() {
     return (
-        <div>Hello World</div>
+        <Searchbar />
     )   
 }
 
