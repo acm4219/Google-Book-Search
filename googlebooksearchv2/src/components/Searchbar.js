@@ -12,13 +12,12 @@ function Searchbar(props){
             </div>
             <form className="search container">
                 <div className="form-group row">
-                    <input className="col-sm-5" 
+                    <input className="col-sm-10 form-control" 
                         value={props.search}
                         onChange={props.handleInputChange}
                         name="book"
                         list="books"
                         type="text"
-                        className="form-control"
                         placeholder="Search for your favorite books"
                         id="book"
                     />
