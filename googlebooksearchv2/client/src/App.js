@@ -12,7 +12,7 @@ import Search from "./views/Search"
 
 function App() {
   return (
-    <div className="relative pb-10 min-h-screen">
+    <div>
      <Router>
        <Header />
        <div>
@@ -23,12 +23,12 @@ function App() {
           <Route path="/search">
             <Search />
           </Route>
-          <Route path="/saved">
+          <Route path="/books">
             <Saved />
           </Route>
         </Switch>
         </div>
-        <Footer />
+      <Footer />
       </Router>
 
      

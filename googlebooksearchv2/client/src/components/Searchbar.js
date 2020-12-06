@@ -6,7 +6,7 @@ function Searchbar(props){
         <div>
             <div class="jumbotron-fluid">
                 <div className="container">
-                    <h3 className="display-4">Search your Favorite Books</h3>
+                    <h3 className="display-4 d-flex justify-content-center">Search your Favorite Books</h3>
                     <hr />
                 </div>
             </div>
